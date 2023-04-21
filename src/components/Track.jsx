@@ -17,7 +17,7 @@ export function Track() {
   return (
     <>
       <mesh geometry={geometry}>
-        <primitive object={geometry} attach={"geometry"} />
+        <primitive object={geometry}  />
         <meshBasicMaterial toneMapped={false} map={colorMap} />
       </mesh>
     </>
